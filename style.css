@@ -24,8 +24,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1rem;
-
+  padding: 1rem 0rem 1rem 0rem;
   box-shadow: 0 0 0 0.25rem var(--principalColor);
 }
 
@@ -52,7 +51,7 @@ header {
 } */
 
 .logo {
-  width: 11rem;
+  width: 10rem;
 }
 
 .logo:hover {
@@ -77,20 +76,19 @@ header {
 }
 
 .newTabIcon {
-  max-width: 8px;
+  max-width: 9px;
 }
 
 .linkMenu:hover {
-  transform: scale(1.01);
-  transition: 0.09s ease-in;
+/*   transform: scale(1.01);
+  transition: 0.09s ease-in; */
   background-color: #000000;
   color: var(--principalColor);
 }
 
 .linkMenu:active {
-  transform: scale(1.05);
-  transition: 0.1s ease-in;
-  background-color: var(--greySecundary);
+/*   transform: scale(1.01);
+  transition: 0.09s ease-in; */
   color: var(--secundaryColor);
 }
 
