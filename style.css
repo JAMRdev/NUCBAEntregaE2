@@ -4,9 +4,12 @@
   --greySecundary: rgb(77, 77, 77);
   --backgroundColor: #151c13;
   --principalColor: #99fe54;
+  --alternativeGreen: #135200;
   --principalColorVariation1: #6e6e6e;
-  --white: #fff;
   --secundaryColor: rgb(255, 0, 115);
+  --white: #fff;
+  --black: #000;
+
   --principalFont: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -29,8 +32,8 @@ header {
 }
 
 .animatedBG {
-  background: linear-gradient(93deg, var(--greyPrincipal), #000000, #135200);
-  background-size: 150% 150%;
+  background: linear-gradient(93deg, var(--greyPrincipal), var(--black), var(--alternativeGreen));
+  background-size: 120% 120%;
   animation: gradient-animation 4.5s ease infinite;
 }
 
@@ -82,7 +85,7 @@ header {
 .linkMenu:hover {
 /*   transform: scale(1.01);
   transition: 0.09s ease-in; */
-  background-color: #000000;
+  background-color: var(--black);
   color: var(--principalColor);
 }
 
