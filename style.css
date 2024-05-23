@@ -6,6 +6,7 @@
   --principalColor: #99fe54;
   --alternativeGreen: #135200;
   --principalColorVariation1: #6e6e6e;
+  --principalColorVariation2: #a0a0a0;
   --secundaryColor: rgb(255, 0, 115);
   --white: #fff;
   --black: #000;
@@ -90,14 +91,15 @@ header {
 .linkMenu:hover {
 /*   transform: scale(1.01);
   transition: 0.09s ease-in; */
-  background-color: var(--black);
-  color: var(--principalColor);
+ /*  background-color: var(--black); */
+  color: var(--principalColorVariation2);
+  text-decoration: overline;
 }
 
 .linkMenu:active {
 /*   transform: scale(1.01);
   transition: 0.09s ease-in; */
-  color: var(--secundaryColor);
+  color: var(--principalColor);
 }
 
 .linkMenu_Active {
