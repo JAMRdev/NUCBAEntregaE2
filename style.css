@@ -1,13 +1,14 @@
-:root{
-    --greyPrincipal: #262626;
-    --greySecundary: rgb(77, 77, 77);
-    --backgroundColor: #151c13;
-    --principalColor: #99fe54;
-    --principalColorVariation1: #6e6e6e;
-    --white: #fff;
-    --secundaryColor: rgb(255, 0, 115);
-    --principalFont: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+/* FORMAT */
+:root {
+  --greyPrincipal: #262626;
+  --greySecundary: rgb(77, 77, 77);
+  --backgroundColor: #151c13;
+  --principalColor: #99fe54;
+  --principalColorVariation1: #6e6e6e;
+  --white: #fff;
+  --secundaryColor: rgb(255, 0, 115);
+  --principalFont: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 * {
@@ -17,9 +18,7 @@
   box-sizing: border-box;
 }
 
-body{
-    background-color: var(--white);
-}
+/* HEADER SECTION */
 
 header {
   display: flex;
@@ -31,35 +30,34 @@ header {
 }
 
 .animatedBG {
-    background: linear-gradient(93deg,#000000,#6e6e6e);
-    background-size: 120% 120%;
-    animation: gradient-animation 4s ease infinite;
-  }
-  
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 20%;
-    }
-    50% {
-      background-position: 100% 20%;
-    }
-    100% {
-      background-position: 0% 20%;
-    }
-  }
-
-
-header:hover{
-    box-shadow: 0 0 0 0.25rem var(--principalColorVariation1);
+  background: linear-gradient(93deg, var(--greyPrincipal), #000000, #135200);
+  background-size: 150% 150%;
+  animation: gradient-animation 4.5s ease infinite;
 }
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* header:hover {
+  box-shadow: 0 0 0 0.25rem var(--principalColorVariation1);
+} */
 
 .logo {
   width: 11rem;
 }
 
 .logo:hover {
-  transform: scale(1.05);
-  transition: 0.1s ease-in;
+  transform: scale(1.01);
+  transition: 0.3s ease-in;
 }
 
 .navbar {
@@ -75,32 +73,32 @@ header:hover{
   color: var(--white);
   text-decoration: none;
   padding: 0.3rem;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 .newTabIcon {
- max-width: 8px;
+  max-width: 8px;
 }
 
 .linkMenu:hover {
-    transform: scale(1.05);
-    transition: 0.1s ease-in;
-    background-color: var(--greySecundary);
-    color: var(--principalColor);
+  transform: scale(1.01);
+  transition: 0.09s ease-in;
+  background-color: #000000;
+  color: var(--principalColor);
 }
 
 .linkMenu:active {
-    transform: scale(1.05);
-    transition: 0.1s ease-in;
-    background-color: var(--greySecundary);
-    color: var(--secundaryColor);
+  transform: scale(1.05);
+  transition: 0.1s ease-in;
+  background-color: var(--greySecundary);
+  color: var(--secundaryColor);
 }
 
 .linkMenu_Active {
-    color: var(--principalColor)
+  color: var(--principalColor);
 }
 
-
-body{
-  background-color: var(--principalColorVariation1);
+/* MAIN SECTION */
+main {
+  margin-top: 4px;
 }
