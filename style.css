@@ -21,6 +21,11 @@
   box-sizing: border-box;
 }
 
+/* BODY SECTION */
+body {
+  background-color: var(--greyPrincipal);
+}
+
 /* HEADER SECTION */
 
 header {
@@ -32,7 +37,7 @@ header {
 }
 
 .animatedBG {
-  background: linear-gradient(93deg, var(--greyPrincipal), var(--black), var(--alternativeGreen));
+  background: linear-gradient(93deg,var(--black),var(--black), var(--alternativeGreen));
   background-size: 120% 120%;
   animation: gradient-animation 4.5s ease infinite;
 }
