@@ -2,7 +2,7 @@
 :root {
   --greyPrincipal: #262626;
   --greySecundary: rgb(77, 77, 77);
-  --backgroundColor: #151c13;
+  --backgroundColor: #0f0f0f;
   --principalColor: #99fe54;
   --alternativeGreen: #135200;
   --principalColorVariation1: #6e6e6e;
@@ -24,7 +24,7 @@
 
 /* BODY SECTION */
 body {
-  background-color: var(--greyPrincipal);
+  background-color: var(--backgroundColor);
 }
 
 /* HEADER SECTION */
@@ -34,11 +34,11 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 1rem 0rem 1rem 0rem;
-  box-shadow: 0 0 0 0.25rem var(--principalColor);
+  box-shadow: 0 0 0 0.1rem var(--principalColor);
 }
 
 .animatedBG {
-  background: linear-gradient(93deg,var(--black),var(--black), var(--alternativeGreen));
+  background: linear-gradient(93deg,var(--black), var(--black), var(--alternativeGreen));
   background-size: 120% 120%;
   animation: gradient-animation 4.5s ease infinite;
 }
