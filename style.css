@@ -114,7 +114,7 @@ header {
 /* MAIN SECTION */
 main {
   margin-top: 4px;
-  height: 80vh;
+  height: 84vh;
 }
 
 footer {
@@ -123,6 +123,6 @@ footer {
   align-items: center;
   justify-content: center;
   background-color: var(--black);
-  height: 11vh;
+  height: 7vh;
   color: var(--white);
 }
