@@ -38,7 +38,12 @@ header {
 }
 
 .animatedBG {
-  background: linear-gradient(93deg,var(--black), var(--black), var(--alternativeGreen));
+  background: linear-gradient(
+    93deg,
+    var(--black),
+    var(--black),
+    var(--alternativeGreen)
+  );
   background-size: 120% 120%;
   animation: gradient-animation 4.5s ease infinite;
 }
@@ -89,15 +94,15 @@ header {
 }
 
 .linkMenu:hover {
-/*   transform: scale(1.01);
+  /*   transform: scale(1.01);
   transition: 0.09s ease-in; */
- /*  background-color: var(--black); */
+  /*  background-color: var(--black); */
   color: var(--principalColorVariation2);
   text-decoration: overline;
 }
 
 .linkMenu:active {
-/*   transform: scale(1.01);
+  /*   transform: scale(1.01);
   transition: 0.09s ease-in; */
   color: var(--principalColor);
 }
@@ -109,4 +114,15 @@ header {
 /* MAIN SECTION */
 main {
   margin-top: 4px;
+  height: 80vh;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+  height: 11vh;
+  color: var(--white);
 }
