@@ -391,10 +391,6 @@ header {
     padding: 2rem;
   }
 
-  .errorBanner {
-   display: none;
-  }
-
   .cardEntrega {
     max-width: 600px;
     padding: 1.5rem 8rem;
