@@ -308,7 +308,7 @@ header {
   padding: 0.5rem;
   background-color: #5100ff;
   position: absolute;
-  margin-bottom: 330px;
+  margin-bottom: 350px;
   margin-left: 220px;
 }
 
@@ -457,10 +457,13 @@ header {
   }
 
   .errorBanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 0.7rem;
-    width: 125px;
-    margin-bottom: 310px;
-    margin-left: 210px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 270px;
   }
 
   .error404 {
