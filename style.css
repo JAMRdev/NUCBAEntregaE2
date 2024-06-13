@@ -380,10 +380,6 @@ header {
   header {
     padding: 2rem;
   }
-
-  .errorBanner {
-    display: none;
-   }
 }
 
 @media (max-width: 768px) {
