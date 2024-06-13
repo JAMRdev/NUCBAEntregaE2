@@ -384,7 +384,7 @@ header {
   .tituloEntregas h3{
       font-size: 1.5rem;
       font-weight: 900;
-      padding: 2rem;
+      padding: 0 0 2rem 0;
     }
 
   .cardEntrega {
