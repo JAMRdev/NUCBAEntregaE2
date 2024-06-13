@@ -15,12 +15,32 @@
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--principalColorVariation1); 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: var(--principalColor); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secundaryColor); 
+}
+
+/* */
+
 * {
   margin: 0;
   padding: 0;
   font-family: var(--principalFont);
   box-sizing: border-box;
 }
+
 
 .container {
   max-width: 1200px;
@@ -187,19 +207,28 @@ header {
   width: 400px;
 }
 
-.bordeEntregas {
+.bordeEntregas, .bordeFeedback {
   border-radius: 10px;
   margin-top: 10px;
   padding: 2rem;
-  background: rgb(89,0,255);
-background: linear-gradient(330deg, #85f43b 50%, var(--principalColor) 10%);
+  background: rgb(89, 0, 255);
+  background: linear-gradient(330deg, #85f43b 50%, var(--principalColor) 10%);
   /*background-color: var(--principalColor);*/
 }
 
-.tituloEntregas h3 {
+.tituloEntregas h3,
+.tituloFeedback h3 {
   color: var(--greyPrincipal);
   font-size: 2rem;
   text-align: center;
+}
+
+.building {
+  padding: 5rem;
+  text-align: center;
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: 900;
 }
 
 .containerEntregas {
@@ -294,7 +323,7 @@ background: linear-gradient(330deg, #85f43b 50%, var(--principalColor) 10%);
   border-radius: 50px;
 }
 
-.modulo1_DW {
+.modulo1_DW, .textFeedback {
   margin-top: 10px;
   width: 100%;
   padding: 1rem;
@@ -377,6 +406,21 @@ background: linear-gradient(330deg, #85f43b 50%, var(--principalColor) 10%);
   font-size: 2rem;
 }
 
+.feedbackForm {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.feedbackForm label {
+  color: var(--greyPrincipal);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
 /* Media Querys */
 
 @media (max-width: 1199px) {
@@ -404,7 +448,6 @@ background: linear-gradient(330deg, #85f43b 50%, var(--principalColor) 10%);
   }
 }
 
-
 @media (max-width: 768px) {
   header {
     padding: 2rem;
@@ -421,7 +464,6 @@ background: linear-gradient(330deg, #85f43b 50%, var(--principalColor) 10%);
 }
 
 @media (max-width: 767px) {
-
   .container {
     max-width: 767px;
     margin: 10px;
@@ -525,5 +567,3 @@ background: linear-gradient(330deg, #85f43b 50%, var(--principalColor) 10%);
     font-size: 1rem;
   }
 }
-
-
