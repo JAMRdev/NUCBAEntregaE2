@@ -402,6 +402,7 @@ header {
   }
 }
 
+
 @media (max-width: 768px) {
   header {
     padding: 2rem;
@@ -417,6 +418,28 @@ header {
   }
 }
 
+@media (max-width: 767px) {
+
+  .container {
+    max-width: 767px;
+    margin: 10px;
+  }
+  .heroImage img {
+    display: none;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 1.5rem;
+    gap: 0rem;
+    justify-content: center;
+  }
+
+  .icons {
+    align-items: center;
+    justify-content: center;
+  }
+}
 @media (max-width: 428px) {
   .container {
     max-width: 428px;
@@ -500,3 +523,5 @@ header {
     font-size: 1rem;
   }
 }
+
+
