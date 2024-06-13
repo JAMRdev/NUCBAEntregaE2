@@ -195,6 +195,12 @@ header {
   background-color: var(--principalColor);
 }
 
+.tituloEntregas h3{
+color: var(--greyPrincipal);
+  font-size: 2rem;
+  text-align: center;
+}
+
 .containerEntregas {
   padding: 2rem;
   display: flex;
