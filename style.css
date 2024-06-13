@@ -77,7 +77,6 @@ header {
   color: var(--principalColor);
 }
 
-
 .hero {
   padding: 5rem 2rem;
   background-color: var(--greyPrincipal);
@@ -195,8 +194,8 @@ header {
   background-color: var(--principalColor);
 }
 
-.tituloEntregas h3{
-color: var(--greyPrincipal);
+.tituloEntregas h3 {
+  color: var(--greyPrincipal);
   font-size: 2rem;
   text-align: center;
 }
@@ -227,8 +226,8 @@ color: var(--greyPrincipal);
 }
 
 .cardEntrega img {
- width: 100px;
- padding-bottom: 0.5rem;
+  width: 100px;
+  padding-bottom: 0.5rem;
 }
 
 .cardName h3 {
@@ -242,7 +241,6 @@ color: var(--greyPrincipal);
   padding-bottom: 1rem;
   text-align: center;
 }
-
 
 .iconCard {
   display: flex;
@@ -274,7 +272,7 @@ color: var(--greyPrincipal);
 }
 
 .css {
-  width: 3.0rem;
+  width: 3rem;
   font-size: 0.8rem;
   background-color: var(--secundaryColor);
   color: var(--white);
@@ -291,6 +289,15 @@ color: var(--greyPrincipal);
   font-weight: 700;
   padding: 0.4rem;
   border-radius: 50px;
+}
+
+.modulo1_DW {
+  margin-top: 10px;
+  width: 100%;
+  padding: 1rem;
+  background-color: #1a1b1a;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .footerNav {
@@ -361,14 +368,13 @@ color: var(--greyPrincipal);
   }
 
   .cardEntrega {
-      max-width: 600px;
-      padding: 1.5rem 8rem;
+    max-width: 600px;
+    padding: 1.5rem 8rem;
   }
 
   .cardShadow {
     box-shadow: 0px 0px 0px 10px var(--backgroundColor);
   }
-
 }
 
 @media (max-width: 428px) {
@@ -381,62 +387,68 @@ color: var(--greyPrincipal);
     font-size: 1.5rem;
   }
 
-  
-header {
+  header {
     flex-direction: column;
     padding: 1rem;
-}
+  }
 
   .heroImage img {
     display: none;
   }
 
-  .tituloEntregas h3{
-      font-size: 1.5rem;
-      font-weight: 900;
-      padding: 0 0 2rem 0;
-    }
+  .tituloEntregas h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 0 0 2rem 0;
+  }
 
   .cardEntrega {
     padding: 1rem 5rem;
-}
+  }
 
-.hero {
-  text-align: center;
-  padding: 1.5rem;
-  gap: 0rem;
-}
+  .hero {
+    text-align: center;
+    padding: 1.5rem;
+    gap: 0rem;
+  }
 
-.icons {
-  align-items: center;
-  justify-content: center; 
-}
+  .icons {
+    align-items: center;
+    justify-content: center;
+  }
 
-.containerEntregas {
-  padding: 0rem;
-  gap: 2rem;
-}
+  .containerEntregas {
+    padding: 0rem;
+    gap: 2rem;
+  }
 
-.cardName p {
-  display: none;
-}
+  .cardName p {
+    display: none;
+  }
 
-.cardShadow {
-  box-shadow: 0px 0px 0px 7px var(--backgroundColor);
-}
+  .cardShadow {
+    box-shadow: 0px 0px 0px 7px var(--backgroundColor);
+  }
 
-.error404 {
-  color: var(--white);
-  background-color: var(--greyPrincipal);
-}
 
-.error404 h3 {
-  font-size: 2rem;
-}
+  .modulo1_DW {
+    margin-top: -15px;
+    margin-bottom: 20px;
+    padding: 1rem;
+  }
 
-.error404 p {
-  text-align: center;
-  font-size: 1rem;
-}
 
+  .error404 {
+    color: var(--white);
+    background-color: var(--greyPrincipal);
+  }
+
+  .error404 h3 {
+    font-size: 2rem;
+  }
+
+  .error404 p {
+    text-align: center;
+    font-size: 1rem;
+  }
 }
