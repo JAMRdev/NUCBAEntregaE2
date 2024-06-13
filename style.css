@@ -191,7 +191,9 @@ header {
   border-radius: 10px;
   margin-top: 10px;
   padding: 2rem;
-  background-color: var(--principalColor);
+  background: rgb(89,0,255);
+background: linear-gradient(330deg, #85f43b 50%, var(--principalColor) 10%);
+  /*background-color: var(--principalColor);*/
 }
 
 .tituloEntregas h3 {
