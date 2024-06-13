@@ -301,17 +301,20 @@ header {
   border-radius: 10px;
 }
 
-
 .errorBanner {
   font-size: 0.8rem;
   border-radius: 5px;
   padding: 0.5rem;
-  background-color: #5100ff;
+  background-color: #000000;
   position: absolute;
   margin-bottom: 350px;
   margin-left: 220px;
 }
 
+.errorBanner a {
+  color: var(--white);
+  text-decoration: none;
+}
 
 /* Footer */
 
@@ -352,7 +355,6 @@ header {
   color: var(--principalColor);
 }
 
-
 /* Página de error 404 */
 .error404 {
   color: var(--greyPrincipal);
@@ -373,12 +375,25 @@ header {
   font-size: 2rem;
 }
 
-
 /* Media Querys */
+
+@media (max-width: 1199px) {
+  header {
+    padding: 2rem;
+  }
+
+  .errorBanner {
+    display: none;
+  }
+}
 
 @media (max-width: 1024px) {
   header {
     padding: 2rem;
+  }
+
+  .errorBanner {
+    display: none;
   }
 }
 
