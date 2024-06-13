@@ -260,14 +260,14 @@ color: var(--greyPrincipal);
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.2rem;
 }
 
 .html {
   width: 3.8rem;
   font-size: 0.8rem;
-  background-color: #98fe548e;
-  color: #135200;
+  background-color: #0a66c2;
+  color: var(--white);
   font-weight: 700;
   padding: 0.4rem;
   border-radius: 50px;
@@ -276,8 +276,18 @@ color: var(--greyPrincipal);
 .css {
   width: 3.0rem;
   font-size: 0.8rem;
-  background-color: rgba(234, 97, 159, 0.517);
-  color: var(--secundaryColor);
+  background-color: var(--secundaryColor);
+  color: var(--white);
+  font-weight: 700;
+  padding: 0.4rem;
+  border-radius: 50px;
+}
+
+.js {
+  width: 5.4rem;
+  font-size: 0.8rem;
+  background-color: #f6df1f;
+  color: var(--black);
   font-weight: 700;
   padding: 0.4rem;
   border-radius: 50px;
