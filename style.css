@@ -211,9 +211,7 @@ header {
   border-radius: 10px;
   margin-top: 10px;
   padding: 2rem;
-  background: rgb(89, 0, 255);
   background: linear-gradient(330deg, #85f43b 50%, var(--principalColor) 10%);
-  /*background-color: var(--principalColor);*/
 }
 
 .tituloEntregas h3,
@@ -415,7 +413,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--principalColor);
+  background: linear-gradient(330deg, #85f43b 50%, var(--principalColor) 10%);
   height: 50vh;
   border-radius: 10px;
 }
@@ -426,6 +424,7 @@ header {
 
 .error404 p {
   font-size: 2rem;
+  font-weight: 500;
 }
 
 
