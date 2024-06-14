@@ -347,6 +347,28 @@ header {
   text-decoration: none;
 }
 
+.tools {
+  margin-top: 10px;
+    padding: 2rem 2rem;
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 10px;
+}
+
+.toolsDiv {
+  text-align: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.toolsDiv a{
+  text-decoration: none;
+}
+
+
 /* Footer */
 
 .footerNav {
@@ -406,6 +428,8 @@ header {
   font-size: 2rem;
 }
 
+
+/* Feedback */
 .feedbackForm {
   padding: 2rem;
   display: flex;
@@ -432,7 +456,15 @@ header {
   .errorBanner {
     display: none;
   }
+
+  .toolsDiv {
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 }
+
+
 
 @media (max-width: 1024px) {
   header {
@@ -576,3 +608,4 @@ header {
     font-weight: 700;
   }
 }
+
